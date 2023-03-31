@@ -11,7 +11,7 @@
     <AssemblyOriginatorKeyFile>ImDiskNet.snk</AssemblyOriginatorKeyFile>
     <DelaySign>false</DelaySign>
 
-    <TargetFrameworks>net20;net40;netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>net48;netstandard2.0</TargetFrameworks>
 
     <RegisterForComInterop Condition="'$(TargetFramework)|$(Configuration)' == 'net40|Release'">true</RegisterForComInterop>
 

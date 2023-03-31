@@ -216,6 +216,8 @@
     </Link>
     <ClCompile>
       <PreprocessorDefinitions>IMDISK_CPL_EXPORTS;_UNICODE;UNICODE;_WIN32_WINNT=0x0502;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <UndefinePreprocessorDefinitions>vsnprintf</UndefinePreprocessorDefinitions>
+      <TreatWarningAsError>false</TreatWarningAsError>
     </ClCompile>
     <PreBuildEvent>
       <Command>nmake refresh</Command>
@@ -321,6 +323,8 @@
     <ClCompile>
       <PreprocessorDefinitions>IMDISK_CPL_EXPORTS;_UNICODE;UNICODE;_WIN32_WINNT=0x0502;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <WholeProgramOptimization>true</WholeProgramOptimization>
+      <UndefinePreprocessorDefinitions>vsnprintf</UndefinePreprocessorDefinitions>
+      <TreatWarningAsError>false</TreatWarningAsError>
     </ClCompile>
     <PreBuildEvent>
       <Command>nmake refresh</Command>

@@ -198,11 +198,17 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Link />
+    <ClCompile>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <UndefinePreprocessorDefinitions>vsnprintf</UndefinePreprocessorDefinitions>
+    </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Link />
     <ClCompile>
       <WholeProgramOptimization>true</WholeProgramOptimization>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <UndefinePreprocessorDefinitions>vsnprintf</UndefinePreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup>

@@ -3,6 +3,7 @@
 #include <memory.h>
 #include <stdio.h>
 #include <io.h>
+#include <windows.h>
 
 #include "..\devio_types.h"
 #include "..\devio.h"
